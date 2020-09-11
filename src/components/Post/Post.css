@@ -1,0 +1,38 @@
+
+.Post {
+    font-family: 'EB Garamond', serif;
+    color: #262626;
+    font-size:16px;
+    margin-bottom:30px;
+    border:1px solid #BEBEBE;
+    padding: 0 20px;
+}
+
+.Post:last-child {
+    margin-bottom:0;
+}
+
+.post__heading {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.post__heading:hover, .post__author:hover {
+    text-decoration: underline;
+}
+
+.post__author {
+    display:inline-block;
+    margin: 0 30px 0 0;
+}
+
+.post__date {
+    display:inline-block;
+    margin: 0;
+}
+
+.Post a {
+    text-decoration: none;
+    display:inline-block;
+    color: #262626;
+}

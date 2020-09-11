@@ -1,0 +1,33 @@
+
+.ButtonWithArrow {
+    margin:20px 0;
+    position: relative;
+    display: inline-block;
+    color: #262626;
+}
+
+.ButtonWithArrow button {
+    background-color: #fff;
+    border:2px solid #262626;
+    padding: 10px 25px 10px 20px;
+    border-radius: 3px;
+    font-weight:600;
+    font-family: 'EB Garamond', serif;
+    font-size:16px;
+    cursor:pointer;
+    outline:none;
+    min-width: 150px;
+}
+
+.ButtonWithArrow button:hover {
+    box-shadow: 2px 2px 3px rgba(38,38,38,0.5);
+}
+
+.ButtonWithArrow i {
+    position: absolute;
+    content: '';
+    right: 13px;
+    top: 54%;
+    transform: translateY(-50%);
+    font-size:12px;
+}

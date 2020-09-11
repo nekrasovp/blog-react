@@ -1,0 +1,53 @@
+
+.Input {
+    margin-bottom:10px;
+}
+
+.Input label {
+    display:block;
+    font-size:16px;
+    padding: 10px 0;
+    font-weight:bold;
+}
+
+.Input input, .Input textarea {
+    color: #262626;
+    background-color: #fff;
+    border:2px solid rgba(190,190,190,0.4);
+    border-radius: 3px;
+    font-family: 'EB Garamond', serif;
+    font-size:18px;
+    outline:none;
+}
+
+.Input input:focus, .Input textarea:focus {
+    border:2px solid #bebebe;
+}
+
+.Input input {
+    padding: 10px 20px;
+}
+
+.Input input[type=date] {
+    text-align: center;
+}
+
+.Input input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+.Input input[type=date]::-webkit-calendar-picker-indicator {
+    background: transparent;
+    color: #262626;
+}
+
+.Input textarea {
+    padding: 20px;
+}
+
+.inputErrorMessage {
+    color: #b22222;
+    margin: 5px 0;
+}
+

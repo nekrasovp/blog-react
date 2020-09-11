@@ -1,0 +1,45 @@
+
+.Author {
+    position: relative;
+    min-height: 120px;
+    min-width: 400px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.Author:last-child {
+    margin-bottom: 0;
+}
+
+.Author i {
+    display: inline-block;
+    font-size: 100px;
+    color: #999999;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 18px;
+}
+
+.Author a {
+    text-decoration: none;
+    display: block;
+}
+
+.authorInfo {
+    margin-left: 100px;
+}
+
+.authorInfo p {
+    margin: 0;
+}
+
+.fullName {
+    font-size: 22px;
+    color: #262626;
+    margin: 10px 0;
+}
+
+.fullName:hover {
+    text-decoration: underline;
+}

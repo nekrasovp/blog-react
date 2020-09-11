@@ -1,0 +1,24 @@
+
+.ErrorMessage {
+    padding-left: 260px;
+    min-height:100px;
+    position:relative;
+}
+
+.ErrorMessage > i {
+    position:absolute;
+    font-size:100px;
+    left: 180px;
+    top: 0;
+    color:#262626;
+}
+
+.ErrorMessage h2 {
+    font-size:30px;
+    margin: 0;
+}
+
+.ErrorMessage p {
+    font-size:18px;
+}
+

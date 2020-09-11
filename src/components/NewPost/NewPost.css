@@ -1,0 +1,44 @@
+
+.NewPost {
+
+}
+
+.NewPost input, textarea {
+    width: 100%;
+}
+
+.NewPost textarea {
+    min-height: 300px;
+}
+
+.publishMessage {
+    text-align: center;
+    font-size: 18px;
+}
+
+.publishMessage a {
+    color: #262626;
+}
+
+.publishMessage .fa-quote-left, .publishMessage .fa-quote-right {
+    font-size: 4px;
+}
+
+.publishMessage .fa-quote-left {
+    vertical-align: top;
+}
+
+.publishMessage .fa-quote-right {
+    vertical-align: bottom;
+}
+
+.publishMessage span {
+    padding: 0 3px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.NewPost Link {
+    display:block;
+}
+

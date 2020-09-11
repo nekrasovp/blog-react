@@ -1,0 +1,56 @@
+#################   .npmignore    #################
+
+#################   data files    #################
+data/
+
+#################  distro files   #################
+site/
+build/
+
+#################  unit testing   #################
+coverage/
+.nyc_output/
+.coveralls.*
+.coverage
+.coverage.*
+.cache
+coverage.xml
+
+#################  dependencies   #################
+*.swp
+npm-debug.log
+node_modules/
+package-lock.json
+
+#################    dev files    #################
+dev/
+test/
+test_dev/
+docs/
+docs_dev/
+.babelrc
+webpack.config.js
+karma.config.js
+
+
+################  version control  ################
+.hgignore
+.hg/
+.gitignore
+.git/
+
+
+#################    IDE files    #################
+.DS_STORE
+.netbeans
+nbproject
+.idea
+.node_history
+venv/
+venv3/
+
+#################   backup sync   #################
+desktop.ini
+*.gdoc
+.dropbox
+Thumbs.db

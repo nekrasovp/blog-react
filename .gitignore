@@ -1,0 +1,53 @@
+#################   .gitignore    #################
+
+
+#################   data files    #################
+data/
+
+#################  distro files   #################
+site/
+build/
+
+#################  unit testing   #################
+.nyc_output/
+.coveralls.*
+.coverage
+.coverage.*
+.cache
+coverage.xml
+coverage
+
+#################  dependencies   #################
+node_modules/
+package-lock.json
+
+#################    dev files    #################
+dev/
+test_dev/
+
+
+################  version control  ################
+.hgignore
+.hg/
+
+
+#################    IDE files    #################
+.DS_STORE
+.netbeans
+nbproject
+.idea
+.vscode
+.node_history
+venv/
+venv3/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+
+#################   backup sync   #################
+desktop.ini
+*.gdoc
+.dropbox
+Thumbs.db

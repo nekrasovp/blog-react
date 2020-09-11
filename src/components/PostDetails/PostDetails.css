@@ -1,0 +1,77 @@
+
+.PostDetailsWrapper {
+
+}
+
+.PostDetails {
+    margin-bottom: 30px;
+    font-family: 'EB Garamond', serif;
+    color: #262626;
+    font-size: 16px;
+}
+
+.PostDetails a {
+    text-decoration: none;
+    display:inline-block;
+    color: #505050;
+}
+
+.postDetails__heading {
+    text-align: center;
+    font-size: 26px;
+}
+
+.postDetails-info {
+    text-align: center;
+    color: #505050;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.postDetails__author {
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
+.postDetails__author:hover {
+    text-decoration: underline;
+}
+
+.postDetails__date {
+    margin: 0;
+    display: inline-block;
+}
+
+.PostDetailsWrapper .like-block {
+    color: #262626;
+    text-align: center;
+}
+
+.PostDetailsWrapper .like-block i {
+    font-size: 22px;
+    cursor:pointer;
+}
+
+.PostDetailsWrapper .vote-block {
+    position: relative;
+}
+
+.PostDetailsWrapper .likes {
+    margin-right: 45px;
+}
+
+.PostDetailsWrapper .likes i {
+    position: absolute;
+    top: -4px;
+}
+
+.PostDetailsWrapper .dislikes i {
+    position: absolute;
+    bottom:-3px;
+}
+
+.PostDetailsWrapper .likeWarning {
+    font-size: 14px;
+    margin: 10px 0;
+}
+

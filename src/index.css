@@ -1,0 +1,15 @@
+
+*{
+  box-sizing: border-box;
+}
+
+html, body, #root{
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'EB Garamond', serif;
+  color: #262626;
+  margin: 0;
+}

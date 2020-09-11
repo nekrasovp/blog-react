@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic');
+
+.Menu {
+    color: #bebebe;
+    font-size: 16px;
+    display:flex;
+    flex-direction: row;
+    margin-bottom:70px;
+}
+
+.menu-item {
+    border:2px solid #F7F7F7;
+    border-left:none;
+    flex:1;
+    text-align:center;
+}
+
+.menu-item:last-child {
+    border-right:none;
+}
+
+.menu-item_login {
+    flex:0;
+}
+
+.menu-item_separate {
+    height:50%;
+}
+
+.menu-item_separate:first-child {
+    border-bottom: 2px solid #F7F7F7;
+}
+
+.navLink {
+    color: #bebebe;
+    font-family: 'EB Garamond', serif;
+    text-decoration: none;
+    font-weight:bold;
+    text-transform:uppercase;
+    display:block;
+    padding:10px 20px;
+    box-sizing: border-box;
+    height:100%;
+}
+
+.navLink:hover {
+    color: #262626;
+}
+
+.menu-caption {
+    font-weight:normal;
+    font-size:16px;
+    text-transform:none;
+    font-family: 'Marck Script', cursive;
+}
+
+.menu-item_home {
+    font-family: 'Satisfy', cursive;
+    font-size: 16px;
+    font-weight:normal;
+    text-transform:none;
+    line-height:1.3em;
+}
+
+.menu-item_separate-link {
+    padding:5px 20px 0 20px;
+}
+
+.active-menu-item {
+    color: #262626;
+}
+
+.one-line-link {
+    padding:22px 20px;
+}
+
