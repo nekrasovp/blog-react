@@ -8,7 +8,7 @@ import './AllAuthors.css';
 
 const AllAuthors = props => {
 
-    // Search authors with more then one blog
+    // Search authors with more then one post
     const authorsSearch = () => {
         let authors = [];
 
