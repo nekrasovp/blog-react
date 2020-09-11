@@ -1,5 +1,9 @@
 # Public blog
 
+Build is hosted on [gh-pages](https://github.com/nekrasovp/blog-react/tree/gh-pages) branch.
+
+Visit [nekrasovp.github.io/blog-react](https://nekrasovp.github.io/blog-react) for example.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Features
