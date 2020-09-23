@@ -4,6 +4,16 @@
 }
 
 .Register input {
-   width: 400px;
+   width: 300px;
+}
+
+input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+    -webkit-appearance: none;
+    display: none;
 }
 

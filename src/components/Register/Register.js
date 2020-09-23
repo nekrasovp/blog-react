@@ -42,7 +42,8 @@ class Register extends React.Component {
                     }
                 },
                 birthDate: {
-                    value: '',
+                    data: '2000-01-01',
+                    value: '2000-01-01',
                     type: 'date',
                     label: 'Birth date',
                     errorMessage: 'Choose birth day',
